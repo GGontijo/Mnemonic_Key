@@ -40,4 +40,3 @@ class MnemonicHasher:
         key = hashlib.sha256(seeds.encode('utf-8')).hexdigest()
         print ("-"*200)
         print ("That's your private key: ", key)
-
